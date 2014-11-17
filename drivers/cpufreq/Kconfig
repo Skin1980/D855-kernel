@@ -239,7 +239,7 @@ config CPU_FREQ_GOV_LIONHEART
 	If in doubt, say N.
 
 config CPU_FREQ_GOV_SMARTASSV2
-	tristate "'smartassV2' cpufreq governor"
+	tristate "smartass2"
 	depends on CPU_FREQ
 	default y
 	help
