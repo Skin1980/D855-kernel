@@ -2,7 +2,7 @@ VERSION = 3
 PATCHLEVEL = 4
 SUBLEVEL = 0
 EXTRAVERSION =
-NAME = Saber-toothed Squirrel
+NAME = ChupaChups1.7
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
