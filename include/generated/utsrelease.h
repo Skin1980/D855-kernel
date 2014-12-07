@@ -1,1 +1,1 @@
-#define UTS_RELEASE "3.4.0-perf-g52980cb-dirty"
+#define UTS_RELEASE "3.4.0-perf-g764c37c-dirty"
