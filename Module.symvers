@@ -1666,6 +1666,7 @@
 0xe1768b86	usb_hcd_check_unlink_urb	vmlinux	EXPORT_SYMBOL_GPL
 0x400af80d	regcache_cache_bypass	vmlinux	EXPORT_SYMBOL_GPL
 0x5f5342d6	generic_permission	vmlinux	EXPORT_SYMBOL
+0xb9fe0637	msm_cpufreq_set_freq_limits	vmlinux	EXPORT_SYMBOL
 0x4f7d9903	_remote_spin_release	vmlinux	EXPORT_SYMBOL
 0x2d877a39	qpnp_iadc_comp_result	vmlinux	EXPORT_SYMBOL
 0xe61146e7	usb_qdss_ctrl_write	vmlinux	EXPORT_SYMBOL

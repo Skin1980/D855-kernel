@@ -3050,6 +3050,15 @@ config FORCE_FAST_CHARGE
      A simple sysfs interface to force adapters that
      are detected as USB to charge as AC.
 
+config MSM_CPUFREQ_LIMITER
+	tristate "MSM CPU frequency limiter"
+	default y
+	help
+	This driver limits MSM CPU frequency through sysfs file system.
+	To compile this driver as a module, choose M here: the
+	module will be called cpufreq_stats.
+	If in doubt, say N.
+
 config KRAIT_REGULATOR
 	bool "Support Kraits powered via ganged regulators in the pmic"
 	help

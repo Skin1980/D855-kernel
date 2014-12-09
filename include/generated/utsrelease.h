@@ -1,1 +1,1 @@
-#define UTS_RELEASE "3.4.0-perf-ge340dbb-dirty"
+#define UTS_RELEASE "ChupaChups-Kernel-2.1"
