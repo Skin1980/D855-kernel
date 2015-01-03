@@ -1,1 +1,1 @@
-#define UTS_RELEASE "ChupaChups-Kernel-2.1"
+#define UTS_RELEASE "2.5"
