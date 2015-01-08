@@ -21,14 +21,11 @@
 #define PLAT_PHYS_OFFSET UL(CONFIG_PHYS_OFFSET)
 
  #if defined(CONFIG_KEXEC_HARDBOOT)
-#define KEXEC_HB_PAGE_ADDR	UL(0x7DC00000)
-#define KEXEC_HB_KERNEL_LOC	UL(0x72000000)
+#define KEXEC_HB_PAGE_ADDR	UL(0x7D800000)
+#define KEXEC_HB_KERNEL_LOC	UL(0x4800000)
 #endif
-
-/* #if defined(CONFIG_KEXEC_HARDBOOT)
-#define KEXEC_HB_PAGE_ADDR	UL(0xD900000)
-#define KEXEC_HB_KERNEL_LOC	UL(0x3208000)
-#endif*/
+/* #define KEXEC_HB_PAGE_ADDR	UL(0x7D800000) this is good for the 2Gb version*/
+/*#define KEXEC_HB_PAGE_ADDR	UL(0xDD800000) this is good for the 3Gb version*/
 
 #define MAX_PHYSMEM_BITS 32
 #define SECTION_SIZE_BITS 28
